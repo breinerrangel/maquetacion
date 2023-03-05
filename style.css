@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,700;1,500&display=swap');
+:root{
+    --AlmostWhite: hsl(0, 0%, 98%);
+    --MediumGray: hsl(0, 0%, 41%);
+    --AlmostBlack: hsl(0, 0%, 8%);
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Epilogue', sans-serif;
+}
+header{
+    margin: 0px;
+    width: 100%;
+
+
+    z-index: 100;
+    position: fixed;   
+    
+   
+   
+
+
+}
+.sub_menu{
+    list-style: none;
+    width: 70%;
+    display: flex;
+   
+    justify-content: center;
+}
+.li{
+    display: flex;
+   width: 150px;
+   
+   height: 28px;
+   padding-left: 10px;
+   padding-top: 5px;
+
+
+
+   font-size: 17px;
+   
+    
+  
+
+}
+    
+
+   
+   
+
+.menu li{
+    background-color:  var(--AlmostWhite);
+   
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    justify-content: center;
+  
+   
+    
+
+    float: left;
+}
+.menu{
+    
+    
+    width: 100%;
+    padding-right:100px;
+   
+    display: flex;
+ 
+    
+}
+.sub2_menu_{
+    
+    border-radius: 20px;
+   
+    position: absolute;
+    min-width: 120px;
+    display: none;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);
+    margin-top: 120px;
+   
+}
+.sub2_menu_ li{
+
+    border-radius: 25px;
+    
+    
+}
+.sub_menu li:hover .sub2_menu_{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--AlmostWhite);
+    
+   
+}
+.li:hover{
+    background-color:rgba(169, 169, 169, 0.527);
+    cursor: pointer;
+   
+    
+}
+.li2{
+    padding-left: 20px;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   cursor: pointer;
+    
+   
+    font-size: 15px;
+    
+}
+
+   
+
+
+.li2:hover{
+    background-color:rgba(169, 169, 169, 0.527) ;
+    
+}
+.li3:hover{
+    background-color:rgba(169, 169, 169, 0.527) ;
+
+}
+
+
+.menu_boton{
+  
+    width: 30%;
+    display: flex;
+    justify-content: center;
+ 
+    justify-content: space-around;
+
+    padding-bottom: 15px;
+  
+}
+.sub_menu2{
+   
+ 
+   
+    position: absolute;
+    min-width: 120px;
+    display: none;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);
+    margin-top: 150px;
+   
+
+}
+.sub_menu li:hover .sub_menu2{
+    display: block;
+ 
+    display: flex;
+    flex-direction: column;
+    background-color: var(--AlmostWhite);
+}
+.li3{
+   
+ padding-left: 10px;
+   
+    padding-top: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+   
+   
+   
+     
+
+}
+
+
+
+.li svg{
+    position: absolute;
+    margin-left: 90px;
+    
+    transition:rotate 5s ;
+    
+}
+.li svg:hover{
+    transform:rotate(180deg);
+}
+
+.li3 svg{
+   position:absolute ;
+   margin: 0px;
+  
+}
+
+.sin_borde{
+    padding: 10px;
+    background-color: var(--AlmostWhite);
+    border: none;
+    width: 130px;
+    border-radius: 25px;
+
+}
+.con_borde{
+    padding: 10px;
+    background-color: var(--AlmostWhite);
+    border: 1px solid;
+    width: 130px;
+    border-radius: 25px;
+}
+.con_borde:hover{
+    color: var(--AlmostWhite);
+    background-color: black;
+}
+.sin_borde:hover{
+    color: var(--AlmostWhite);
+    background-color: black;
+
+}
+.contenedor {
+    height: 100vh;
+    display: flex;
+    margin-top: 20px;
+   
+}
+.contenido{
+    margin-top: 20px;
+    width: 50% ;
+    
+    display: flex;
+   
+   
+    align-items: center;
+    flex-direction: column;
+}
+.imagen{
+    margin-top: 70px;
+}
+.imagen img{
+    height: 590px;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+.contenido h1{
+    font-size: 70px;
+    margin-top: 180px;
+   
+    
+}
+.contenido p{
+ 
+    color: var(--MediumGray);
+    margin-right: 22px;
+    line-height: 25px;
+    
+    
+}
+.contenido button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 40px;
+    margin-right: 350px;
+}
+.contenido button:hover{
+    color: var(--AlmostWhite);
+    background-color: var(--AlmostBlack);
+}
+.icon{
+  
+    width: 500px;
+    height: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    gap: 10px;
+    
+}
